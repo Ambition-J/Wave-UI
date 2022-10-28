@@ -16,11 +16,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "simple-git-hooks": {
-    "pre-commit": "npm lint",
-    "pre-push": "npm run format",
-    "preserveUnused": true,
-    "preserveUnused": ["commit-msg"]
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm lint",
+      "pre-push": "npm format"
+    }
   },
   "devDependencies": {
     "@types/node": "^18.7.6",
@@ -35,8 +35,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.6.0",
     "happy-dom": "^7.6.6",
+    "husky": "^8.0.1",
     "prettier": "^2.7.1",
-    "simple-git-hooks": "^2.8.1",
     "unocss": "^0.45.7",
     "vite": "^3.0.8",
     "vitepress": "1.0.0-alpha.5",
