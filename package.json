@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "simple-git-hooks": {
-    "pre-commit": "npm run lint",
+    "pre-commit": "npm lint",
     "pre-push": "npm run format",
     "preserveUnused": true,
     "preserveUnused": ["commit-msg"]
