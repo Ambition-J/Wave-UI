@@ -5,9 +5,6 @@ export default defineComponent({
   setup() {
     return () => (
       <div>
-        <JSXButton color="blue" icon="search">
-          蓝色按钮
-        </JSXButton>
         <JSXButton color="green" icon="edit">
           绿色按钮
         </JSXButton>
